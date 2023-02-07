@@ -1,4 +1,4 @@
-# Project Capstone: Fraud Detection on Auto Insurance Claims 
+# Project: Healthcare Insurance Premium Prediction
 
 ## Executive Summary
 This study seeks to develop a model capable of predicting health insurance premium. Through the study, I have created a regression model with RMSE testing at $4,350 and adjusted r squared testing at 87%.
