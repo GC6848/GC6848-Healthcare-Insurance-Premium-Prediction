@@ -37,6 +37,7 @@ The datasets used for this analysis are obtained from [Kaggle](https://www.kaggl
 |---|---|
 | insurance_claims.csv | Contains data relating to age of primary beneficiary, insurance contractor gender, body mass index (ideally 18.5 to 24.9), number of children covered by health insurance / number of dependents covered by health insurance, smoking status, beneficiary's residential area in the US, northeast, southeast, southwest, northwest; and individual medical costs billed by health insurance. |
 
+
 #### Overview of technical analysis: 
 
 (1) Problem_Statement <br>
@@ -48,12 +49,10 @@ The datasets used for this analysis are obtained from [Kaggle](https://www.kaggl
 
 
 ### Conclusion
-Gaussian Naive Bayes is chosen as the final model as Gaussian Naive Bayes <br>
+Random Forest Regressor is chosen as the final model as Random Forest Regressor <br>
 (1) is not overfitting;   
 (2) has highest adjusted r squared testing at 87%; and
 (3) has lowest RMSE testing at \$4,350 and third lowest RMSE training at \\$3,740, that is lower than that of baseline model.
-
-This model helps to predict fraud and reduce loss from fraud claims, which translates to saving.
 
 
 ### Recommendations
